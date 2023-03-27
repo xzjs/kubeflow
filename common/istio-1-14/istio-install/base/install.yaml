@@ -1943,11 +1943,7 @@ data:
           {{ else -}}
           - name: istio-init
           {{ end -}}
-          {{- if contains "/" (annotation .ObjectMeta `sidecar.istio.io/proxyImage` .Values.global.proxy_init.image) }}
-            image: "{{ annotation .ObjectMeta `sidecar.istio.io/proxyImage` .Values.global.proxy_init.image }}"
-          {{- else }}
-            image: "{{ .ProxyImage }}"
-          {{- end }}
+            image: "docker.io/istio/proxyv2@sha256:804c3d9eb586e5e5a070602825e08804e38d9d5ceb9d5bceeff7c0a13e3ada14"
             args:
             - istio-iptables
             - "-p"
