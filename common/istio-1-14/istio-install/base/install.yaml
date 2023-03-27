@@ -3356,7 +3356,7 @@ spec:
           value: "false"
         - name: CLUSTER_ID
           value: Kubernetes
-        image: m.daocloud.io/gcr.io/arrikto/istio/pilot:1.14.1-1-g19df463bb
+        image: istio/pilot@sha256:a1db85b9e8f7dabf11036514ab1cf4fbcb3421eaa17843346eea5cc58a1f43f1
         imagePullPolicy: IfNotPresent
         name: discovery
         ports:
