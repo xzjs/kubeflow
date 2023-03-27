@@ -4403,7 +4403,7 @@ spec:
       serviceAccountName: controller
       containers:
         - name: activator
-          image: m.daocloud.io/gcr.io/knative-releases/knative.dev/serving/cmd/activatorsha256:f912e13f324994a6d2d8513a2fcd4517c6f8c5b68e21b5f19f4a15f305e2ad7c
+          image: m.daocloud.io/gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:f912e13f324994a6d2d8513a2fcd4517c6f8c5b68e21b5f19f4a15f305e2ad7c
           resources:
             requests:
               cpu: 300m
