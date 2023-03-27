@@ -1800,7 +1800,7 @@ data:
           "tracer": "zipkin"
         },
         "proxy_init": {
-          "image": "istio/proxyv2:sha256:804c3d9eb586e5e5a070602825e08804e38d9d5ceb9d5bceeff7c0a13e3ada14",
+          "image": "istio/proxyv2@sha256:804c3d9eb586e5e5a070602825e08804e38d9d5ceb9d5bceeff7c0a13e3ada14",
           "resources": {
             "limits": {
               "cpu": "2000m",
