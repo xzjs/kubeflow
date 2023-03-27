@@ -1821,7 +1821,7 @@ data:
         "sts": {
           "servicePort": 0
         },
-        "tag": "1.14.1",
+        "digest": "sha256:804c3d9eb586e5e5a070602825e08804e38d9d5ceb9d5bceeff7c0a13e3ada14"
         "tracer": {
           "datadog": {
             "address": "$(HOST_IP):8126"
