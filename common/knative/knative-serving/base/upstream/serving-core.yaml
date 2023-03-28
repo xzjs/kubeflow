@@ -4538,7 +4538,7 @@ spec:
       serviceAccountName: controller
       containers:
         - name: autoscaler
-          image: gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:007820fdb75b60e6fd5a25e65fd6ad9744082a6bf195d72795561c91b425d016
+          image: m.daocloud.io/gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:e05a9b6242db0331fc2306634816d77659c3de16678cb20a66fded7912a7abf5
           resources:
             requests:
               cpu: 100m
@@ -4655,7 +4655,7 @@ spec:
       serviceAccountName: controller
       containers:
         - name: controller
-          image: gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:75cfdcfa050af9522e798e820ba5483b9093de1ce520207a3fedf112d73a4686
+          image: m.daocloud.io/gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:77f02606ba9531a759923507b779af9e8e55a496e60b6c1332ed657224a28d79
           resources:
             requests:
               cpu: 100m
@@ -4750,7 +4750,7 @@ spec:
       serviceAccountName: controller
       containers:
         - name: domain-mapping
-          image: gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping@sha256:23baa19322320f25a462568eded1276601ef67194883db9211e1ea24f21a0beb
+          image: m.daocloud.io/gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping@sha256:7249e9f7791d983aa43b256425650aa3eac55bc51c62574479e00a6323882f60
           resources:
             requests:
               cpu: 30m
@@ -4821,7 +4821,7 @@ spec:
       serviceAccountName: controller
       containers:
         - name: domainmapping-webhook
-          image: gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook@sha256:847bb97e38440c71cb4bcc3e430743e18b328ad1e168b6fca35b10353b9a2c22
+          image: m.daocloud.io/gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook@sha256:12d8bd6bdae75318f2b91a33d531586c3e133a31e72ecd2692bac3ba67c0a646
           resources:
             requests:
               cpu: 100m
@@ -4985,7 +4985,7 @@ spec:
       serviceAccountName: controller
       containers:
         - name: webhook
-          image: gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:9084ea8498eae3c6c4364a397d66516a25e48488f4a9871ef765fa554ba483f0
+          image: m.daocloud.io/gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:37f1f8014c4f64b4d151fa681223d9f668d45685fd59a635acea4660e0a953c9
           resources:
             requests:
               cpu: 100m
