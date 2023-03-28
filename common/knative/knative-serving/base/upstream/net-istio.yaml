@@ -207,7 +207,7 @@ spec:
       serviceAccountName: controller
       containers:
         - name: controller
-          image: gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:f253b82941c2220181cee80d7488fe1cefce9d49ab30bdb54bcb8c76515f7a26
+          image: m.daocloud.io/gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:0b7034529663598212852405d4a575dcbb61fa24addfe75e68342612c057fd38
           resources:
             requests:
               cpu: 30m
