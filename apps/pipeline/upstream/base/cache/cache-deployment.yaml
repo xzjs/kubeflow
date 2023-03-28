@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: gcr.io/ml-pipeline/cache-server:dummy
+        image: m.daocloud.io/gcr.io/ml-pipeline/cache-server:dummy
         env:
           - name: CACHE_IMAGE
             valueFrom:
