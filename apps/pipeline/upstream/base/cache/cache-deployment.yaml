@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: m.daocloud.io/gcr.io/ml-pipeline/cache-server:1.8.5
+        image: xzjs/cache-server:1.8.19
         env:
           - name: CACHE_IMAGE
             valueFrom:
